@@ -1,0 +1,803 @@
+{
+  "users": [
+    {
+      "_id": "usr_admin_001",
+      "name": "SehatKosh National Admin",
+      "email": "admin@sehatkosh.gov.in",
+      "password": "$2a$10$Q1d8eEeKFnda80RPjFCzLuTt6vsMSKHkymzfhQTiF2DUxFovcfb3u",
+      "role": "admin",
+      "phone": "1800111565",
+      "isVerified": true,
+      "isApproved": true,
+      "state": "Delhi",
+      "district": "New Delhi",
+      "createdAt": "2026-10-23T22:22:15.177Z"
+    },
+    {
+      "_id": "usr_doc_001",
+      "name": "Dr. Rajesh Sharma",
+      "email": "dr.sharma@sehatkosh.gov.in",
+      "password": "$2a$10$Q1d8eEeKFnda80RPjFCzLuZEOd8KficVuWup.d99RAbCdwvo.m0pO",
+      "role": "doctor",
+      "phone": "9876543210",
+      "isVerified": true,
+      "isApproved": true,
+      "specialization": "General Physician & Telemedicine",
+      "qualification": "MBBS, MD (Medicine), AIIMS Delhi",
+      "experienceYears": 12,
+      "registrationNumber": "MCI-DEL-2012-8921",
+      "consultationFee": 300,
+      "availableDays": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
+      ],
+      "availableTimeSlots": [
+        "09:00 AM - 10:00 AM",
+        "11:00 AM - 12:00 PM",
+        "03:00 PM - 04:00 PM",
+        "06:00 PM - 07:00 PM"
+      ],
+      "isAvailable": true,
+      "state": "Haryana",
+      "district": "Gurugram",
+      "createdAt": "2026-10-23T22:22:15.355Z"
+    },
+    {
+      "_id": "usr_patient_001",
+      "name": "Amit Verma",
+      "email": "amit.verma@example.com",
+      "password": "$2a$10$Q1d8eEeKFnda80RPjFCzLuaf/Ptlop.Vr.7O3WYf5CfZ89NzgwzuS",
+      "role": "patient",
+      "phone": "9812345678",
+      "age": 34,
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "state": "Haryana",
+      "district": "Rohtak",
+      "annualIncome": 140000,
+      "category": "OBC",
+      "abhaNumber": "91-4201-8392-1002",
+      "abhaAddress": "amitverma1002@abdm",
+      "isVerified": true,
+      "isApproved": true,
+      "createdAt": "2026-10-23T22:22:15.571Z"
+    },
+    {
+      "_id": "usr_hosp_001",
+      "name": "Civil District Hospital & Trauma Centre",
+      "email": "civil.hospital@sehatkosh.gov.in",
+      "password": "$2a$10$Q1d8eEeKFnda80RPjFCzLun1HpjQ.4jmTtrLb.Uc/lVbEkeBEFevu",
+      "role": "hospital",
+      "phone": "01242321100",
+      "isVerified": true,
+      "isApproved": true,
+      "hospitalName": "Civil District Hospital & Trauma Centre",
+      "hospitalType": "Government Civil Hospital",
+      "totalBeds": 250,
+      "availableBeds": 78,
+      "icuBeds": 18,
+      "departments": [
+        "Emergency & Trauma",
+        "General Medicine",
+        "Cardiology",
+        "Pediatrics"
+      ],
+      "address": "MG Road, Near Old Bus Stand, Gurugram, Haryana",
+      "state": "Haryana",
+      "district": "Gurugram",
+      "createdAt": "2026-10-23T22:22:15.735Z"
+    },
+    {
+      "_id": "use_1792794230772_781",
+      "createdAt": "2026-10-23T22:23:50.772Z",
+      "updatedAt": "2026-10-23T22:23:53.744Z",
+      "name": "Kavita Rani",
+      "email": "kavita.rani.2340@example.com",
+      "password": "$2a$10$3cxh.qycHytJjqI5FwlVQeNR9T0t9XpYYWQcoPgSSWXVo5BFG.u5K",
+      "role": "patient",
+      "phone": "9876501234",
+      "age": 29,
+      "gender": "Female",
+      "bloodGroup": "B+",
+      "state": "Haryana",
+      "district": "Ambala",
+      "annualIncome": 160000,
+      "category": "OBC",
+      "abhaNumber": "91-2787-9884-9430",
+      "abhaAddress": "kavitarani521@abdm",
+      "isVerified": true,
+      "verificationOtp": null,
+      "otpExpires": null,
+      "specialization": "General Physician",
+      "qualification": "MBBS, MD",
+      "experienceYears": 5,
+      "registrationNumber": "",
+      "consultationFee": 350,
+      "hospitalName": "",
+      "hospitalType": "Community Health Centre",
+      "totalBeds": 100,
+      "departments": [
+        "General Medicine"
+      ],
+      "address": "",
+      "isApproved": true
+    },
+    {
+      "_id": "use_1792794590904_613",
+      "createdAt": "2026-10-23T22:29:50.904Z",
+      "updatedAt": "2026-10-23T22:30:11.281Z",
+      "name": "kanishka",
+      "email": "kksnehapal@gmail.com",
+      "password": "$2a$10$CK0b6TG.z7RPd2fNiR6vBekhJeBlieFrf3vsJtjXT/Nwb8uC1Klf.",
+      "role": "patient",
+      "phone": "9643089849",
+      "age": 21,
+      "gender": "Female",
+      "bloodGroup": "B+",
+      "state": "Haryana",
+      "district": "Gurugram",
+      "annualIncome": 180000,
+      "category": "OBC",
+      "abhaNumber": "91-8593-1714-0841",
+      "abhaAddress": "kanishka580@abdm",
+      "isVerified": true,
+      "verificationOtp": null,
+      "otpExpires": null,
+      "specialization": "General Physician",
+      "qualification": "MBBS, MD",
+      "experienceYears": 6,
+      "registrationNumber": "MCI-DEL-2018-4501",
+      "consultationFee": 350,
+      "hospitalName": "",
+      "hospitalType": "Community Health Centre",
+      "totalBeds": 120,
+      "departments": [
+        "General Medicine",
+        "Pediatrics",
+        "Orthopedics",
+        "Emergency"
+      ],
+      "address": "Near Civil Lines",
+      "isApproved": true
+    },
+    {
+      "_id": "use_1792795712149_563",
+      "createdAt": "2026-10-23T22:48:32.149Z",
+      "updatedAt": "2026-10-23T22:48:33.455Z",
+      "name": "Kavita Rani",
+      "email": "kavita.rani.8404@example.com",
+      "password": "$2a$10$QBro9ORdjyOV3kCmM6pmXuXytXrtFKN/ozs.wamxFL5xT0aVxo4Pu",
+      "role": "patient",
+      "phone": "9876501234",
+      "age": 29,
+      "gender": "Female",
+      "bloodGroup": "B+",
+      "state": "Haryana",
+      "district": "Ambala",
+      "annualIncome": 160000,
+      "category": "OBC",
+      "abhaNumber": "91-9958-4701-1209",
+      "abhaAddress": "kavitarani465@abdm",
+      "isVerified": true,
+      "verificationOtp": null,
+      "otpExpires": null,
+      "specialization": "General Physician",
+      "qualification": "MBBS, MD",
+      "experienceYears": 5,
+      "registrationNumber": "",
+      "consultationFee": 350,
+      "hospitalName": "",
+      "hospitalType": "Community Health Centre",
+      "totalBeds": 100,
+      "departments": [
+        "General Medicine"
+      ],
+      "address": "",
+      "isApproved": true
+    },
+    {
+      "_id": "use_1792796376777_662",
+      "createdAt": "2026-10-23T22:59:36.777Z",
+      "updatedAt": "2026-10-23T22:59:38.051Z",
+      "name": "Kavita Rani",
+      "email": "kavita.rani.9438@example.com",
+      "password": "$2a$10$eHpk.M9ucKwK0dOF9rxVD.vDtbMo7Bw/BdZGaidAZWy6TyUAkkDVy",
+      "role": "patient",
+      "phone": "9876501234",
+      "age": 29,
+      "gender": "Female",
+      "bloodGroup": "B+",
+      "state": "Haryana",
+      "district": "Ambala",
+      "annualIncome": 160000,
+      "category": "OBC",
+      "abhaNumber": "91-2159-2285-2516",
+      "abhaAddress": "kavitarani267@abdm",
+      "isVerified": true,
+      "verificationOtp": null,
+      "otpExpires": null,
+      "specialization": "General Physician",
+      "qualification": "MBBS, MD",
+      "experienceYears": 5,
+      "registrationNumber": "",
+      "consultationFee": 350,
+      "hospitalName": "",
+      "hospitalType": "Community Health Centre",
+      "totalBeds": 100,
+      "departments": [
+        "General Medicine"
+      ],
+      "address": "",
+      "isApproved": true
+    }
+  ],
+  "appointments": [
+    {
+      "_id": "app_001",
+      "patient": "usr_patient_001",
+      "doctor": "usr_doc_001",
+      "appointmentDate": "2026-10-24T22:22:15.735Z",
+      "timeSlot": "11:00 AM - 12:00 PM",
+      "symptoms": "Mild seasonal fever and dry throat for 2 days",
+      "status": "confirmed",
+      "consultationMode": "Video Teleconsultation",
+      "meetingLink": "https://meet.jit.si/sehatkosh-tele-demo",
+      "createdAt": "2026-10-23T22:22:15.735Z"
+    },
+    {
+      "_id": "app_1792794235597_128",
+      "createdAt": "2026-10-23T22:23:55.597Z",
+      "updatedAt": "2026-10-23T22:23:55.597Z",
+      "patient": {
+        "name": "Kavita Rani",
+        "email": "kavita.rani.2340@example.com",
+        "phone": "9876501234",
+        "abhaNumber": "91-2787-9884-9430"
+      },
+      "doctor": {
+        "name": "Dr. Rajesh Sharma",
+        "specialization": "General Physician & Telemedicine",
+        "qualification": "MBBS, MD (Medicine), AIIMS Delhi",
+        "consultationFee": 300,
+        "phone": "9876543210",
+        "email": "dr.sharma@sehatkosh.gov.in"
+      },
+      "appointmentDate": "2026-10-24T22:23:55.593Z",
+      "timeSlot": "11:00 AM - 12:00 PM",
+      "symptoms": "Throat irritation and seasonal allergic symptoms",
+      "patientNotes": "",
+      "consultationMode": "Video Teleconsultation",
+      "meetingLink": "https://meet.jit.si/sehatkosh-tele-aw4k9aa",
+      "status": "confirmed"
+    },
+    {
+      "_id": "app_1792795715309_28",
+      "createdAt": "2026-10-23T22:48:35.309Z",
+      "updatedAt": "2026-10-23T22:48:35.309Z",
+      "patient": "use_1792795712149_563",
+      "doctor": "usr_doc_001",
+      "appointmentDate": "2026-10-24T22:48:35.307Z",
+      "timeSlot": "11:00 AM - 12:00 PM",
+      "symptoms": "Throat irritation and seasonal allergic symptoms",
+      "patientNotes": "",
+      "consultationMode": "Video Teleconsultation",
+      "meetingLink": "https://meet.jit.si/sehatkosh-tele-itmskso",
+      "status": "confirmed"
+    },
+    {
+      "_id": "app_1792796380059_605",
+      "createdAt": "2026-10-23T22:59:40.059Z",
+      "updatedAt": "2026-10-23T22:59:40.059Z",
+      "patient": "use_1792796376777_662",
+      "doctor": "usr_doc_001",
+      "appointmentDate": "2026-10-24T22:59:40.056Z",
+      "timeSlot": "11:00 AM - 12:00 PM",
+      "symptoms": "Throat irritation and seasonal allergic symptoms",
+      "patientNotes": "",
+      "consultationMode": "Video Teleconsultation",
+      "meetingLink": "https://meet.jit.si/sehatkosh-tele-qzzbmzo",
+      "status": "confirmed"
+    }
+  ],
+  "documents": [
+    {
+      "_id": "doc_001",
+      "patient": "usr_patient_001",
+      "abhaNumber": "91-4201-8392-1002",
+      "title": "Complete Blood Count (CBC) Lab Report",
+      "documentType": "lab_report",
+      "fileUrl": "/uploads/sample_report.pdf",
+      "fileName": "CBC_Report_Amit_Verma.pdf",
+      "fileSize": 42100,
+      "mimeType": "application/pdf",
+      "uploadedBy": "patient",
+      "uploadedByName": "Amit Verma",
+      "notes": "Routine health screening",
+      "createdAt": "2026-10-21T22:22:15.735Z"
+    },
+    {
+      "_id": "doc_1792794234267_36",
+      "createdAt": "2026-10-23T22:23:54.267Z",
+      "updatedAt": "2026-10-23T22:23:54.267Z",
+      "patient": "use_1792794230772_781",
+      "abhaNumber": "91-2787-9884-9430",
+      "title": "Prescription: Acute Seasonal Allergies & Mild Bronchitis (Dr. Dr. Rajesh Sharma)",
+      "documentType": "prescription",
+      "fileUrl": "/api/doctor/prescriptions/pre_1792794234266_140",
+      "fileName": "Prescription-Dr._Rajesh_Sharma-1792794234267.pdf",
+      "fileSize": 1024,
+      "mimeType": "application/pdf",
+      "uploadedBy": "doctor",
+      "uploadedByName": "Dr. Dr. Rajesh Sharma",
+      "notes": "Drink plenty of lukewarm fluids. Avoid dust and sudden temperature fluctuations."
+    },
+    {
+      "_id": "doc_1792795662086_393",
+      "createdAt": "2026-10-23T22:47:42.086Z",
+      "updatedAt": "2026-10-23T22:47:42.086Z",
+      "patient": "use_1792794590904_613",
+      "abhaNumber": "91-8593-1714-0841",
+      "title": "AI Report Analysis: Screenshot 2026-10-23 235109.png",
+      "documentType": "lab_report",
+      "fileUrl": "/uploads/Screenshot_2026_10_23_235109_p-1792795653340-281122186.png",
+      "fileName": "Screenshot 2026-10-23 235109.png",
+      "fileSize": 77062,
+      "mimeType": "image/png",
+      "uploadedBy": "patient",
+      "uploadedByName": "kanishka",
+      "notes": "Extracted 4 parameters locally via SehatKosh OCR engine."
+    },
+    {
+      "_id": "doc_1792795701899_814",
+      "createdAt": "2026-10-23T22:48:21.899Z",
+      "updatedAt": "2026-10-23T22:48:21.899Z",
+      "patient": "use_1792794590904_613",
+      "abhaNumber": "91-8593-1714-0841",
+      "title": "Wound Scan: Laceration / Skin Cut",
+      "documentType": "radiology_scan",
+      "fileUrl": "/uploads/Screenshot_2026_10_23_234139_p-1792795701863-609020638.png",
+      "fileName": "Screenshot 2026-10-23 234139.png",
+      "fileSize": 101365,
+      "mimeType": "image/png",
+      "uploadedBy": "patient",
+      "uploadedByName": "kanishka",
+      "notes": "Severity: Moderate (Stage 2 - Partial Thickness) | Infection Risk: Moderate (Observation Required)"
+    },
+    {
+      "_id": "doc_1792795713950_783",
+      "createdAt": "2026-10-23T22:48:33.950Z",
+      "updatedAt": "2026-10-23T22:48:33.950Z",
+      "patient": "use_1792795712149_563",
+      "abhaNumber": "91-9958-4701-1209",
+      "title": "Prescription: Acute Seasonal Allergies & Mild Bronchitis (Dr. Dr. Rajesh Sharma)",
+      "documentType": "prescription",
+      "fileUrl": "/api/doctor/prescriptions/pre_1792795713949_8",
+      "fileName": "Prescription-Dr._Rajesh_Sharma-1792795713950.pdf",
+      "fileSize": 1024,
+      "mimeType": "application/pdf",
+      "uploadedBy": "doctor",
+      "uploadedByName": "Dr. Dr. Rajesh Sharma",
+      "notes": "Drink plenty of lukewarm fluids. Avoid dust and sudden temperature fluctuations."
+    },
+    {
+      "_id": "doc_1792796378563_915",
+      "createdAt": "2026-10-23T22:59:38.563Z",
+      "updatedAt": "2026-10-23T22:59:38.563Z",
+      "patient": "use_1792796376777_662",
+      "abhaNumber": "91-2159-2285-2516",
+      "title": "Prescription: Acute Seasonal Allergies & Mild Bronchitis (Dr. Dr. Rajesh Sharma)",
+      "documentType": "prescription",
+      "fileUrl": "/api/doctor/prescriptions/pre_1792796378562_4",
+      "fileName": "Prescription-Dr._Rajesh_Sharma-1792796378563.pdf",
+      "fileSize": 1024,
+      "mimeType": "application/pdf",
+      "uploadedBy": "doctor",
+      "uploadedByName": "Dr. Dr. Rajesh Sharma",
+      "notes": "Drink plenty of lukewarm fluids. Avoid dust and sudden temperature fluctuations."
+    }
+  ],
+  "prescriptions": [
+    {
+      "_id": "rx_001",
+      "patient": "usr_patient_001",
+      "doctor": "usr_doc_001",
+      "patientName": "Amit Verma",
+      "patientEmail": "amit.verma@example.com",
+      "doctorName": "Dr. Rajesh Sharma",
+      "doctorSpecialization": "General Physician & Telemedicine",
+      "doctorRegNo": "MCI-DEL-2012-8921",
+      "abhaNumber": "91-4201-8392-1002",
+      "diagnosis": "Acute Pharyngitis & Seasonal Pyrexia",
+      "symptoms": "Mild throat ache and fever",
+      "vitals": {
+        "bp": "120/80 mmHg",
+        "pulse": "74 bpm",
+        "temperature": "99.1 F",
+        "spO2": "99%"
+      },
+      "medications": [
+        {
+          "medicineName": "Paracetamol 650mg",
+          "dosage": "1 Tablet",
+          "frequency": "Thrice daily (after food)",
+          "duration": "3 Days",
+          "instructions": "Take with warm water"
+        },
+        {
+          "medicineName": "Levocetirizine 5mg",
+          "dosage": "1 Tablet",
+          "frequency": "Once daily at bedtime",
+          "duration": "5 Days",
+          "instructions": "Avoid driving"
+        }
+      ],
+      "advice": "Drink warm water with salt gargles twice daily. Complete bed rest for 48 hours.",
+      "followUpDate": "2026-10-28T22:22:15.735Z",
+      "emailSent": true,
+      "createdAt": "2026-10-22T22:22:15.735Z"
+    },
+    {
+      "_id": "pre_1792794234266_140",
+      "createdAt": "2026-10-23T22:23:54.267Z",
+      "updatedAt": "2026-10-23T22:23:54.267Z",
+      "patient": "use_1792794230772_781",
+      "doctor": "usr_doc_001",
+      "patientName": "Kavita Rani",
+      "patientEmail": "kavita.rani.2340@example.com",
+      "doctorName": "Dr. Rajesh Sharma",
+      "doctorSpecialization": "General Physician & Telemedicine",
+      "doctorRegNo": "MCI-DEL-2012-8921",
+      "abhaNumber": "91-2787-9884-9430",
+      "diagnosis": "Acute Seasonal Allergies & Mild Bronchitis",
+      "symptoms": "Sneezing, running nose, and dry cough for 3 days",
+      "vitals": {
+        "bp": "118/78 mmHg",
+        "pulse": "72 bpm",
+        "temperature": "98.4 F",
+        "spO2": "99%"
+      },
+      "medications": [
+        {
+          "medicineName": "Cetirizine 10mg",
+          "dosage": "1 Tab",
+          "frequency": "Once daily (night)",
+          "duration": "5 Days",
+          "instructions": "After food"
+        },
+        {
+          "medicineName": "Montelukast 10mg",
+          "dosage": "1 Tab",
+          "frequency": "Once daily",
+          "duration": "5 Days",
+          "instructions": "Night"
+        }
+      ],
+      "advice": "Drink plenty of lukewarm fluids. Avoid dust and sudden temperature fluctuations.",
+      "testsRecommended": [],
+      "followUpDate": "2026-10-30T22:23:54.263Z",
+      "attachmentUrl": "",
+      "emailSent": false
+    },
+    {
+      "_id": "pre_1792795713949_8",
+      "createdAt": "2026-10-23T22:48:33.949Z",
+      "updatedAt": "2026-10-23T22:48:33.949Z",
+      "patient": "use_1792795712149_563",
+      "doctor": "usr_doc_001",
+      "patientName": "Kavita Rani",
+      "patientEmail": "kavita.rani.8404@example.com",
+      "doctorName": "Dr. Rajesh Sharma",
+      "doctorSpecialization": "General Physician & Telemedicine",
+      "doctorRegNo": "MCI-DEL-2012-8921",
+      "abhaNumber": "91-9958-4701-1209",
+      "diagnosis": "Acute Seasonal Allergies & Mild Bronchitis",
+      "symptoms": "Sneezing, running nose, and dry cough for 3 days",
+      "vitals": {
+        "bp": "118/78 mmHg",
+        "pulse": "72 bpm",
+        "temperature": "98.4 F",
+        "spO2": "99%"
+      },
+      "medications": [
+        {
+          "medicineName": "Cetirizine 10mg",
+          "dosage": "1 Tab",
+          "frequency": "Once daily (night)",
+          "duration": "5 Days",
+          "instructions": "After food"
+        },
+        {
+          "medicineName": "Montelukast 10mg",
+          "dosage": "1 Tab",
+          "frequency": "Once daily",
+          "duration": "5 Days",
+          "instructions": "Night"
+        }
+      ],
+      "advice": "Drink plenty of lukewarm fluids. Avoid dust and sudden temperature fluctuations.",
+      "testsRecommended": [],
+      "followUpDate": "2026-10-30T22:48:33.945Z",
+      "attachmentUrl": "",
+      "emailSent": false
+    },
+    {
+      "_id": "pre_1792796378562_4",
+      "createdAt": "2026-10-23T22:59:38.562Z",
+      "updatedAt": "2026-10-23T22:59:38.562Z",
+      "patient": "use_1792796376777_662",
+      "doctor": "usr_doc_001",
+      "patientName": "Kavita Rani",
+      "patientEmail": "kavita.rani.9438@example.com",
+      "doctorName": "Dr. Rajesh Sharma",
+      "doctorSpecialization": "General Physician & Telemedicine",
+      "doctorRegNo": "MCI-DEL-2012-8921",
+      "abhaNumber": "91-2159-2285-2516",
+      "diagnosis": "Acute Seasonal Allergies & Mild Bronchitis",
+      "symptoms": "Sneezing, running nose, and dry cough for 3 days",
+      "vitals": {
+        "bp": "118/78 mmHg",
+        "pulse": "72 bpm",
+        "temperature": "98.4 F",
+        "spO2": "99%"
+      },
+      "medications": [
+        {
+          "medicineName": "Cetirizine 10mg",
+          "dosage": "1 Tab",
+          "frequency": "Once daily (night)",
+          "duration": "5 Days",
+          "instructions": "After food"
+        },
+        {
+          "medicineName": "Montelukast 10mg",
+          "dosage": "1 Tab",
+          "frequency": "Once daily",
+          "duration": "5 Days",
+          "instructions": "Night"
+        }
+      ],
+      "advice": "Drink plenty of lukewarm fluids. Avoid dust and sudden temperature fluctuations.",
+      "testsRecommended": [],
+      "followUpDate": "2026-10-30T22:59:38.557Z",
+      "attachmentUrl": "",
+      "emailSent": false
+    }
+  ],
+  "schemes": [
+    {
+      "_id": "sch_001",
+      "schemeName": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
+      "schemeCode": "PM-JAY-001",
+      "category": "Health Insurance & Free Hospitalization",
+      "ministry": "National Health Authority (NHA) & MoHFW",
+      "titleTranslations": {
+        "en": "Ayushman Bharat PM-JAY (₹5 Lakh Free Treatment)",
+        "hi": "आयुष्मान भारत - प्रधानमंत्री जन आरोग्य योजना (₹5 लाख मुफ्त इलाज)",
+        "pa": "ਆਯੁਸ਼ਮਾਨ ਭਾਰਤ ਪੀ.ਐਮ-ਜੇ.ਏ.ਵਾਈ (₹5 ਲੱਖ ਮੁਫਤ ਇਲਾਜ)",
+        "hr": "आयुष्मान भारत योजना (₹5 लाख ताहीं मुफ्त इलाज)",
+        "ur": "آیوشمان بھارت پردھان منتری جن آروگیہ یوجنا (5 لاکھ تک مفت علاج)"
+      },
+      "description": {
+        "en": "Provides a cashless health cover of up to ₹5 lakh per family per year for secondary and tertiary care hospitalization to over 12 crore poor and vulnerable families.",
+        "hi": "गरीब और कमजोर परिवारों को द्वितीयक और तृतीयक अस्पताल में भर्ती के लिए प्रति परिवार प्रति वर्ष ₹5 लाख तक का कैशलेस स्वास्थ्य कवर प्रदान करता है।",
+        "pa": "ਗਰੀਬ ਅਤੇ ਕਮਜ਼ੋਰ ਪਰਿਵਾਰਾਂ ਨੂੰ ਹਸਪਤਾਲ ਵਿਚ ਭਰਤੀ ਹੋਣ ਲਈ ਪ੍ਰਤੀ ਸਾਲ ₹5 ਲੱਖ ਤੱਕ ਦਾ ਮੁਫਤ ਕੈਸ਼ਲੈੱਸ ਬੀਮਾ ਦਿੰਦਾ ਹੈ।",
+        "hr": "गरीब अर जरूरतमंद घराणे खातिर अस्पताल में भर्ती होण पै ₹5 लाख ताहिं मुफ्त कैशलेस इलाज की सुविधा।",
+        "ur": "غریب اور کمزور خاندانوں کو ہسپتال میں داخلے کے لیے سالانہ 5 لاکھ روپے تک کا مفت کیش لیس کوریج فراہم کرتا ہے۔"
+      },
+      "benefits": [
+        "Cashless hospitalization up to ₹5,00,000 per family per year",
+        "Coverage for pre-existing diseases from Day 1",
+        "Covers 1,949 medical packages including oncology, cardiology, surgeries",
+        "Paperless claim through ABHA ID across 28,000+ empaneled hospitals"
+      ],
+      "eligibilityCriteria": {
+        "minAge": 0,
+        "maxAge": 120,
+        "maxAnnualIncome": 250000,
+        "applicableCategories": [
+          "All",
+          "BPL",
+          "EWS",
+          "SC",
+          "ST",
+          "OBC"
+        ],
+        "gender": "All",
+        "states": [
+          "All"
+        ]
+      },
+      "requiredDocuments": [
+        "Aadhaar Card",
+        "ABHA Card",
+        "Ration Card / PM-JAY Letter"
+      ],
+      "applicationUrl": "https://mera.pmjay.gov.in",
+      "helplineNumber": "14555",
+      "isActive": true
+    },
+    {
+      "_id": "sch_002",
+      "schemeName": "Ayushman Vay Vandana Scheme (Senior Citizens 70+)",
+      "schemeCode": "VAY-VANDANA-70",
+      "category": "Senior Citizen Care",
+      "ministry": "National Health Authority (NHA)",
+      "titleTranslations": {
+        "en": "Ayushman Vay Vandana Scheme (All Seniors 70+)",
+        "hi": "आयुष्मान वय वंदना योजना (70 वर्ष से अधिक के सभी बुजुर्ग)",
+        "pa": "ਆਯੁਸ਼ਮਾਨ ਵਯ ਵੰਦਨਾ ਯੋਜਨਾ (70 ਸਾਲ ਤੋਂ ਉੱਪਰ ਬਜ਼ੁਰਗ)",
+        "hr": "आयुष्मान वय वंदना योजना (70 साल ते ऊपर के बुजुर्गां खातिर)",
+        "ur": "آیوشمان وے وندنا اسکیم (70 سال سے زائد عمر کے بزرگ شہری)"
+      },
+      "description": {
+        "en": "Universal free ₹5 lakh annual health coverage for every senior citizen aged 70 years and above, irrespective of family income or social status.",
+        "hi": "70 वर्ष और उससे अधिक आयु के प्रत्येक वरिष्ठ नागरिक के लिए आय सीमा के बिना ₹5 लाख का सार्वभौमिक मुफ्त स्वास्थ्य कवर।",
+        "pa": "70 ਸਾਲ ਅਤੇ ਇਸ ਤੋਂ ਵੱਧ ਉਮਰ ਦੇ ਹਰ ਬਜ਼ੁਰਗ ਲਈ ਆਮਦਨ ਦੀ ਕੋਈ ਸ਼ਰਤ ਤੋਂ ਬਿਨਾਂ ₹5 ਲੱਖ ਤੱਕ ਮੁਫਤ ਸਿਹਤ ਸੁਰੱਖਿਆ।",
+        "hr": "70 साल तै ऊपर के सब बडे-बुजुर्ग खातिर बिना किसे आमदनी की रोक टोक के ₹5 लाख ताहीं मुफ्त इलाज।",
+        "ur": "70 سال اور اس سے زائد عمر کے تمام سینئر شہریوں کے لیے آمدنی کی کسی شرط کے بغیر 5 لاکھ روپے کا سالانہ مفت علاج۔"
+      },
+      "benefits": [
+        "Distinct ₹5 Lakh annual top-up health cover exclusively for seniors",
+        "No income certificate or BPL card needed",
+        "Special priority queue in empaneled hospitals"
+      ],
+      "eligibilityCriteria": {
+        "minAge": 70,
+        "maxAge": 120,
+        "maxAnnualIncome": null,
+        "applicableCategories": [
+          "All"
+        ],
+        "gender": "All",
+        "states": [
+          "All"
+        ]
+      },
+      "requiredDocuments": [
+        "Aadhaar Card with DOB",
+        "ABHA Health ID"
+      ],
+      "applicationUrl": "https://beneficiary.nha.gov.in",
+      "helplineNumber": "14555",
+      "isActive": true
+    },
+    {
+      "_id": "sch_003",
+      "schemeName": "Janani Suraksha Yojana (JSY & JSSK)",
+      "schemeCode": "JSY-MOHFW-002",
+      "category": "Maternal & Child Health",
+      "ministry": "National Health Mission (NHM)",
+      "titleTranslations": {
+        "en": "Janani Suraksha Yojana (Safe Motherhood & Financial Aid)",
+        "hi": "जननी सुरक्षा योजना (सुरक्षित मातृत्व एवं आर्थिक सहायता)",
+        "pa": "ਜਨਨੀ ਸੁਰੱਖਿਆ ਯੋਜਨਾ (ਜੱਚਾ-ਬੱਚਾ ਸੁਰੱਖਿਆ ਅਤੇ ਮਾਲੀ ਸਹਾਇਤਾ)",
+        "hr": "जननी सुरक्षा योजना (माता अर बच्चे की सार-संभाल अर मदद)",
+        "ur": "جننی سرکشا یوجنا (محفوظ زچگی اور مالی امداد)"
+      },
+      "description": {
+        "en": "Promotes institutional delivery among poor pregnant women by providing cash assistance up to ₹1,400 in rural areas and ₹1,000 in urban areas along with completely free C-section and medicines.",
+        "hi": "गरीब गर्भवती महिलाओं में संस्थागत प्रसव को बढ़ावा देने हेतु वित्तीय सहायता और पूरी तरह से मुफ्त दवाइयां एवं सिजेरियन सर्जरी।",
+        "pa": "ਗਰਭਵਤੀ ਔਰਤਾਂ ਲਈ ਸਰਕਾਰੀ ਹਸਪਤਾਲ ਵਿਚ ਜਣੇਪੇ ਦੌਰਾਨ ਮਾਲੀ ਮਦਦ ਅਤੇ ਮੁਫਤ ਦਵਾਈਆਂ।",
+        "hr": "गर्भवती बाहण-बेटियां खातिर सरकारी अस्पताल में डिलीवरी कराण पै रोकड़ मदद अर मुफ्त दवाइयां।",
+        "ur": "غریب حاملہ خواتین کے لیے سرکاری ہسپتالوں میں مفت زچگی، ادویات اور مالی امداد۔"
+      },
+      "benefits": [
+        "Direct cash transfer into beneficiary bank account",
+        "Zero expense delivery (both normal & C-section)",
+        "Free blood transfusion, food during hospital stay, and free drop-back transport"
+      ],
+      "eligibilityCriteria": {
+        "minAge": 18,
+        "maxAge": 49,
+        "maxAnnualIncome": 300000,
+        "applicableCategories": [
+          "All",
+          "BPL",
+          "SC",
+          "ST",
+          "EWS",
+          "OBC"
+        ],
+        "gender": "Female",
+        "states": [
+          "All"
+        ]
+      },
+      "requiredDocuments": [
+        "Mother & Child Protection (MCP) Card",
+        "Aadhaar Card",
+        "Bank Passbook"
+      ],
+      "applicationUrl": "https://nhm.gov.in",
+      "helplineNumber": "104",
+      "isActive": true
+    },
+    {
+      "_id": "sch_004",
+      "schemeName": "Rashtriya Arogya Nidhi (RAN)",
+      "schemeCode": "RAN-MOHFW-003",
+      "category": "Life Threatening & Rare Diseases",
+      "ministry": "Ministry of Health and Family Welfare",
+      "titleTranslations": {
+        "en": "Rashtriya Arogya Nidhi (Up to ₹15 Lakh for Critical Illness)",
+        "hi": "राष्ट्रीय आरोग्य निधि (गंभीर बीमारियों के इलाज हेतु ₹15 लाख तक सहायता)",
+        "pa": "ਰਾਸ਼ਟਰੀ ਅਰੋਗਿਆ ਨਿਧੀ (ਗੰਭੀਰ ਬਿਮਾਰੀਆਂ ਲਈ ₹15 ਲੱਖ ਤੱਕ ਮਦਦ)",
+        "hr": "राष्ट्रीय आरोग्य निधि (बड़ी-गंभीर बीमारियां खातिर ₹15 लाख ताहिं सहायता)",
+        "ur": "راشٹریہ آروگیہ ندھی (مہلک بیماریों کے علاج کے لیے 15 لاکھ روپے تک امداد)"
+      },
+      "description": {
+        "en": "Provides financial assistance up to ₹15 lakh for patients living below poverty line suffering from major life-threatening diseases for treatment at AIIMS and super-specialty government hospitals.",
+        "hi": "गरीबी रेखा से नीचे रहने वाले मरीजों को एम्स और बड़े सरकारी अस्पतालों में जानलेवा बीमारियों के इलाज के लिए ₹15 लाख तक की एकमुश्त वित्तीय सहायता।",
+        "pa": "ਗੰਭੀਰ ਜਾਨਲੇਵਾ ਬਿਮਾਰੀਆਂ ਤੋਂ ਪੀੜਤ ਗਰੀਬ ਮਰੀਜ਼ਾਂ ਲਈ ਏਮਸ ਵਰਗੇ ਹਸਪਤਾਲਾਂ ਵਿਚ ₹15 ਲੱਖ ਤੱਕ ਦੀ ਵਿੱਤੀ ਸਹਾਇਤਾ।",
+        "hr": "गरीबी रेखा तै नीचे आला मरीज जो कैंसर, दिल या गुर्दे की बीमारी से पीड़ित सै, उनके इलाज खातिर ₹15 लाख की मदद।",
+        "ur": "خط غربت سے نیچے زندگی گزارنے والے مریضوں کے لیے ایمز جیسے بڑے ہسپتالوں میں 15 لاکھ روپے تک مالی امداد۔"
+      },
+      "benefits": [
+        "Up to ₹15,00,000 direct grant to the treating super-specialty hospital",
+        "Covers organ transplants, heart surgeries, chemotherapy, neurosurgery"
+      ],
+      "eligibilityCriteria": {
+        "minAge": 0,
+        "maxAge": 100,
+        "maxAnnualIncome": 180000,
+        "applicableCategories": [
+          "BPL",
+          "EWS",
+          "SC",
+          "ST"
+        ],
+        "gender": "All",
+        "states": [
+          "All"
+        ]
+      },
+      "requiredDocuments": [
+        "BPL Certificate / Ration Card",
+        "Medical Estimate from Govt Hospital",
+        "Aadhaar Card"
+      ],
+      "applicationUrl": "https://main.mohfw.gov.in",
+      "helplineNumber": "011-23063495",
+      "isActive": true
+    }
+  ],
+  "emergency_alerts": [
+    {
+      "_id": "eme_1792796096773_37",
+      "createdAt": "2026-10-23T22:54:56.773Z",
+      "updatedAt": "2026-10-23T22:54:56.773Z",
+      "ticketId": "SOS-096773",
+      "patientName": "Citizen in Distress",
+      "abhaNumber": "Not logged in",
+      "phone": "9876543210",
+      "emergencyType": "Accident Trauma",
+      "latitude": 28.4595,
+      "longitude": 77.0266,
+      "address": "Coordinates attached via GPS",
+      "notes": "Immediate response requested",
+      "timestamp": "2026-10-23T22:54:56.773Z",
+      "status": "ACTIVE_DISPATCH"
+    },
+    {
+      "_id": "eme_1792796127383_586",
+      "createdAt": "2026-10-23T22:55:27.383Z",
+      "updatedAt": "2026-10-23T22:55:27.383Z",
+      "ticketId": "SOS-127382",
+      "patientName": "Citizen in Distress",
+      "abhaNumber": "Not logged in",
+      "phone": "9876543210",
+      "emergencyType": "Accident Trauma",
+      "latitude": 28.4595,
+      "longitude": 77.0266,
+      "address": "Coordinates attached via GPS",
+      "notes": "Immediate response requested",
+      "timestamp": "2026-10-23T22:55:27.382Z",
+      "status": "ACTIVE_DISPATCH"
+    }
+  ],
+  "hospitals": []
+}
